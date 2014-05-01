@@ -1,1 +1,7 @@
-console.log('\'Allo \'Allo!');
+$(document).ready(function(){
+
+	router = new MainRouter();
+
+	Backbone.history.start();
+
+});
